@@ -1,0 +1,30 @@
+.body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .bg-strip {
+    background-color: #f4f4f4;
+    margin: 0; /* Reset default margin */
+    padding: 0; /* Reset default padding */
+    width: 100vw; 
+    min-height: calc(100vh - 200px);
+  }
+  
+  .left-strip,
+  .right-strip {
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+  
+  .left-strip {
+    background-image: url('../../public/Images/white.jpg');
+  }
+  
+  .right-strip {
+    background-image: url('../../public/Images/white.jpg');
+  }
+
+ 
+  

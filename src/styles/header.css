@@ -1,0 +1,19 @@
+.header-container {
+    height: 100%;
+    background-image: url('../../public/Images/Black.jpg');
+    background-size: cover; /* Adjust the image sizing */
+    background-position: center; /* Adjust the image position */
+  }
+  
+  .header-container h1 {
+    margin: 0;
+    text-align: center;
+    color: wheat;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4rem;
+  }
+  
+  
+
+ 

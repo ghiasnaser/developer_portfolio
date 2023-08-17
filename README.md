@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# Developer Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+This project focuses on creating a modern and dynamic portfolio using React, enabling you to showcase your skills and projects effectively. The portfolio will provide potential employers with an overview of your work samples and professional information.
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+N/A
 
-### `npm start`
+## Usage
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To use this tool, just press on "Generate password", then choose the length of the password between 8 and 128 character and if you enterd worng number then you will have three more tries to enter the correct password after that every thing will get cancelled and you have to start all over again, then multiple confirmation will appear to choose your own criteria for the password. At the end you will get the password printed on the screen.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Assets
+The following image demonstrates the web application's appearance and functionality:
 
-### `npm test`
+![On the home page just press Generate Password button to start](./assets/images/home%20page%20of%20password%20generatore.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![The first option will appear to choose the length of the password](./assets/images/first%20option.png)
 
-### `npm run build`
+![The second option will appear to choose whether you want to incluse the upper case letters or not](./assets/images/second%20option.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![The third option will appear to choose whether you want to incluse the Lower case letters or not](./assets/images/Third%20option.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![The fourth option will appear to choose whether you want to incluse the the numeric characters like (0,1,2,...) or not](./assets/images/fourth%20option.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![The fifth option will appear to choose whether you want to incluse the the special characters like (*,&,!,...) or not](./assets/images/fifth%20option.png)
 
-### `npm run eject`
+![The last screen will display the generated password based on the criteria you choose](./assets/images/last%20screen.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Credits
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+N/A
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## License
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Licensed under the [MIT](https://github.com/ghiasnaser/Password-Generator/blob/046961465f48b92ef606d014d2be03bd78413d44/LICENSE) license.
+## Links
+The website link:  https://ghiasnaser.github.io/Password-Generator/
+The repository link: https://github.com/ghiasnaser/Password-Generator.git

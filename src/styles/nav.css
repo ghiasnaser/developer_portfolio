@@ -1,0 +1,23 @@
+.nav-link{
+color: rgb(237, 215, 181);
+font-size: x-large;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: bold;
+}
+
+.active-link {
+    color:aqua;
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+.nav-link:hover {
+    color: rgb(237, 215, 181); 
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.nav-link.active-link:hover {
+    color: aqua;
+    cursor: pointer;
+}

@@ -1,23 +1,44 @@
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import React, { useState, useEffect } from 'react';
+import Header from './components/header';
+import Body from './components/body';
+import Footer from './components/footer';
 
 function App() {
+  const [activeSection, setActiveSection] = useState('aboutMe');
+
+  useEffect(() => {
+    localStorage.setItem('activeSection', activeSection);
+  }, [activeSection]);
+
+  const handleNavClick = (section) => {
+    setActiveSection(section);
+    localStorage.setItem('activeSection', section);
+    return false;
+  };
+
+ 
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col">
+            <Header onNavItemClick={handleNavClick} activeSection={activeSection} />
+          </div>
+        </div>
+        <div className="row">
+          <div className="col">
+            <Body activeSection={activeSection} />
+          </div>
+        </div>
+        <div className="row">
+          <div className="col">
+            <Footer />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

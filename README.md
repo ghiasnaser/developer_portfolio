@@ -1,26 +1,23 @@
 # Developer Portfolio
 
 ## Description
-A modern and dynamic portfolio using React, enabling you to showcase your skills and projects effectively. The portfolio will provide potential employers with an overview of your work samples and professional information.
+Create a modern and dynamic portfolio using React to effectively showcase your skills and projects. This portfolio will provide potential employers with an overview of your work samples and professional information.
 
 ## Installation
 
 N/A
 
 ## Usage
-Just click the link (https://ghiasnaser.github.io/developer_portfolio/) and you will be presinted with the portfolio withe a default home page which is (About Me) page, and then you can use the navigationbar to move between the different pages:
-1- resume page: 
-    you will see a breaf of the skills that I have with the ability to downlaod the resume 
-2- Contact page:
-    you will be presented with a contact form of the 3 fiealds:
-    The name, email and message.
-    When you start typing in the email field you will see a notification telling you this is invalid email until you enter a correct email format.
-    On the message fields you can't keep it empty and if you tried to push the submit buttons befor typing anything, then an alert will tell you that you cann't send an empty message.
-3- Portfolio page:
-    you will be presindted with 6 picture and each one of them represent a project that I did,
-    Once you hoover over and the picture then you will see the title of the project with 2 links.
-    One of them is for the deployed application and the other one for the github repository.
-in the footer bar which will be the same in all the pages you  will see 3 logos for : GitHub, LinkedIn and Facebook, onc you click on any of them it will take you to my profile on thoes sites.
+To access the portfolio, simply click the link: https://ghiasnaser.github.io/developer_portfolio/. The default landing page is the "About Me" section. You can use the navigation bar to explore different sections:
+
+Resume Page: This section provides a brief overview of my skills, along with the option to download my resume.
+
+Contact Page: The contact form includes three fields: Name, Email, and Message. The email field displays an error notification until a valid email format is entered. The message field cannot be submitted empty; an alert will prompt if attempted.
+
+Portfolio Page: This page showcases six project images. Hovering over each image reveals the project title along with two links—one to the deployed application and another to the GitHub repository.
+
+The footer bar, consistent across all pages, displays logos for GitHub, LinkedIn, and Facebook. Clicking on these logos will direct you to my profiles on these platforms.
+
 
 ## Assets
 The following image demonstrates the web application's appearance and functionality:

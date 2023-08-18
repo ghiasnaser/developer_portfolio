@@ -1,32 +1,38 @@
 # Developer Portfolio
 
 ## Description
-This project focuses on creating a modern and dynamic portfolio using React, enabling you to showcase your skills and projects effectively. The portfolio will provide potential employers with an overview of your work samples and professional information.
+A modern and dynamic portfolio using React, enabling you to showcase your skills and projects effectively. The portfolio will provide potential employers with an overview of your work samples and professional information.
 
 ## Installation
 
 N/A
 
 ## Usage
-
-To use this tool, just press on "Generate password", then choose the length of the password between 8 and 128 character and if you enterd worng number then you will have three more tries to enter the correct password after that every thing will get cancelled and you have to start all over again, then multiple confirmation will appear to choose your own criteria for the password. At the end you will get the password printed on the screen.
+Just click the link (https://ghiasnaser.github.io/developer_portfolio/) and you will be presinted with the portfolio withe a default home page which is (About Me) page, and then you can use the navigationbar to move between the different pages:
+1- resume page: 
+    you will see a breaf of the skills that I have with the ability to downlaod the resume 
+2- Contact page:
+    you will be presented with a contact form of the 3 fiealds:
+    The name, email and message.
+    When you start typing in the email field you will see a notification telling you this is invalid email until you enter a correct email format.
+    On the message fields you can't keep it empty and if you tried to push the submit buttons befor typing anything, then an alert will tell you that you cann't send an empty message.
+3- Portfolio page:
+    you will be presindted with 6 picture and each one of them represent a project that I did,
+    Once you hoover over and the picture then you will see the title of the project with 2 links.
+    One of them is for the deployed application and the other one for the github repository.
+in the footer bar which will be the same in all the pages you  will see 3 logos for : GitHub, LinkedIn and Facebook, onc you click on any of them it will take you to my profile on thoes sites.
 
 ## Assets
 The following image demonstrates the web application's appearance and functionality:
 
-![On the home page just press Generate Password button to start](./assets/images/home%20page%20of%20password%20generatore.png)
+![On the home page you will se the About Me page](./src/images/About%20ME.png)
 
-![The first option will appear to choose the length of the password](./assets/images/first%20option.png)
+![The page of Resume](./src/images/resume.png)
 
-![The second option will appear to choose whether you want to incluse the upper case letters or not](./assets/images/second%20option.png)
+![The page of Contact](./src/images/contact.png)
 
-![The third option will appear to choose whether you want to incluse the Lower case letters or not](./assets/images/Third%20option.png)
+![The page of the portfolio](./src/images/protfolio.png)
 
-![The fourth option will appear to choose whether you want to incluse the the numeric characters like (0,1,2,...) or not](./assets/images/fourth%20option.png)
-
-![The fifth option will appear to choose whether you want to incluse the the special characters like (*,&,!,...) or not](./assets/images/fifth%20option.png)
-
-![The last screen will display the generated password based on the criteria you choose](./assets/images/last%20screen.png)
 
 ## Credits
 
@@ -34,7 +40,7 @@ N/A
 
 ## License
 
-Licensed under the [MIT](https://github.com/ghiasnaser/Password-Generator/blob/046961465f48b92ef606d014d2be03bd78413d44/LICENSE) license.
+Licensed under the [MIT](https://github.com/ghiasnaser/developer_portfolio/blob/650e18279c7903ce6b4ce8b31179ec60fd6cf2a4/LICENSE) license.
 ## Links
-The website link:  https://ghiasnaser.github.io/Password-Generator/
-The repository link: https://github.com/ghiasnaser/Password-Generator.git
+The deployed application link:  https://ghiasnaser.github.io/developer_portfolio/
+The repository link: https://github.com/ghiasnaser/developer_portfolio.git

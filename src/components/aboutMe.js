@@ -2,14 +2,14 @@ import React from 'react';
 // Here we are importing a CSS file as a dependency
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 import '../styles/aboutMe.css';
-
+import myimage from '../images/ghias.jpg'
 function AboutMe() {
     return (
       <div className='body-container'>
         <div className="row">
           <div className="col-md-5">
             <img
-              src="../images/ghias.jpg"
+              src={myimage}
               alt="Profile"
               className="img-fluid rounded-circle"
             />

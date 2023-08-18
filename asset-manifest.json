@@ -1,18 +1,24 @@
 {
   "files": {
     "main.css": "/developer_portfolio/static/css/main.7f525741.css",
-    "main.js": "/developer_portfolio/static/js/main.803f5ee5.js",
+    "main.js": "/developer_portfolio/static/js/main.7e3c1887.js",
     "static/js/787.d0fc6f61.chunk.js": "/developer_portfolio/static/js/787.d0fc6f61.chunk.js",
     "static/media/Black.jpg": "/developer_portfolio/static/media/Black.2d97cd0483db449b25c1.jpg",
     "static/media/white.jpg": "/developer_portfolio/static/media/white.fb6aa55cb0de79268e21.jpg",
+    "static/media/note taker.jpg": "/developer_portfolio/static/media/note taker.6377858b163937f02de3.jpg",
+    "static/media/text editor.png": "/developer_portfolio/static/media/text editor.768a297a4aefe7e77703.png",
+    "static/media/CMS.jpg": "/developer_portfolio/static/media/CMS.2c0ea32c325e31bc33ab.jpg",
+    "static/media/weather dashboard.png": "/developer_portfolio/static/media/weather dashboard.556fc6fde415b02a3132.png",
+    "static/media/financial manager.jpg": "/developer_portfolio/static/media/financial manager.390e58b23bd675cb9c11.jpg",
     "static/media/ghias.jpg": "/developer_portfolio/static/media/ghias.3200a3d667d10c1b8d24.jpg",
+    "static/media/linkedin-logo.jpg": "/developer_portfolio/static/media/linkedin-logo.afcccecd75f990475980.jpg",
     "index.html": "/developer_portfolio/index.html",
     "main.7f525741.css.map": "/developer_portfolio/static/css/main.7f525741.css.map",
-    "main.803f5ee5.js.map": "/developer_portfolio/static/js/main.803f5ee5.js.map",
+    "main.7e3c1887.js.map": "/developer_portfolio/static/js/main.7e3c1887.js.map",
     "787.d0fc6f61.chunk.js.map": "/developer_portfolio/static/js/787.d0fc6f61.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7f525741.css",
-    "static/js/main.803f5ee5.js"
+    "static/js/main.7e3c1887.js"
   ]
 }

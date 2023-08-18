@@ -19,11 +19,11 @@
   }
   
   .left-strip {
-    background-image: url('../../public/Images/white.jpg');
+    background-image: url('../images/white.jpg');
   }
   
   .right-strip {
-    background-image: url('../../public/Images/white.jpg');
+    background-image: url('../images/white.jpg');
   }
 
  

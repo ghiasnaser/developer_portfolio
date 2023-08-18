@@ -12,7 +12,7 @@ function Header({ onNavItemClick , activeSection}) {
             <h1>Ghias Naser</h1>
           </div>
           <div className="col-6 navigation-Bar">
-            <Navigation onNavItemClick={onNavItemClick} activeSection={activeSection}/> {/* Pass the function */}
+            <Navigation onNavItemClick={onNavItemClick} activeSection={activeSection}/> 
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 /* Add any necessary styling for the footer */
 .footer-container {
-    background-image: url('../../public/Images/Black.jpg');
+    background-image: url('../images/Black.jpg');
     background-size: cover; /* Adjust the image sizing */
     background-position: center; /* Adjust the image position */
     color: white;

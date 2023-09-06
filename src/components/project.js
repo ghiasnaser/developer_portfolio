@@ -7,6 +7,7 @@ import financialImage from '../images/financial manager.jpg'
 import CMSImage from '../images/CMS.jpg'
 import NoteTakerImage from '../images/note taker.jpg'
 import weatherImage from '../images/weather dashboard.png'
+import designDepot from '../images/design depot.jpg'
 const projects = [
   {
     title: 'Text Editor PWA',
@@ -49,6 +50,13 @@ const projects = [
     DeployingLink:'  https://ghiasnaser.github.io/Weather-Dashboard/ ',
     imageSrc: weatherImage,
     alt: 'Content Management Systems (CMS)'
+  },
+  {
+    title:'Developer Portfolio',
+    GitHubLink:'https://github.com/ghiasnaser/design-depo.git',
+    DeployingLink:'https://design-depo-50c7f040c26d.herokuapp.com',
+    imageSrc: designDepot,
+    alt: 'Design depo application'
   }
 ];
 
